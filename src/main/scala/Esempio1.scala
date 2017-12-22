@@ -1,7 +1,5 @@
 object Esempio1 {
 
-
-
 //    def max(interi: Array[Int]): Int = {
 //      var massimo : Int = interi(0)
 //      interi.foreach(intero => if (intero > massimo) massimo = intero)
@@ -18,5 +16,4 @@ object Esempio1 {
       args.foreach(arg => println(arg))
       println("Max is " + max2(args.map(_.toInt)))
     }
-
 }

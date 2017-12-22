@@ -6,5 +6,4 @@ object Esempio3 {
     val unoduetre = oneTwo ::: twoThree
     println(unoduetre)
   }
-
 }

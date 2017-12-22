@@ -7,9 +7,7 @@ object fileParser {
   }
 
   def printer(files: Array[String]): Unit = {
-
     if (files.length > 0) {
-
       val lines = Source.fromFile(files(0)).getLines().toList
 
       val longestLine = lines.reduceLeft(
@@ -22,7 +20,6 @@ object fileParser {
         val padding = " " * numSpaces
         println(lunghezzaCounter(line) + " | " + padding + lines)
       }
-//        println(line.length + " " + line)
     }
 
     else
@@ -37,7 +34,6 @@ object fileParser {
     }
     else s.length.toString
   }
-
 }
 
 
